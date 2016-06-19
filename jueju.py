@@ -2,7 +2,6 @@
 import os
 import jieba
 from sklearn.externals import joblib
-from click.types import Path
 
 path = os.path.split(os.path.realpath(__file__))[0]
 
